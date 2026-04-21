@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osobni portfolio, sekcija: O meni</title>
+  <meta name="description" content="Detaljnije informacije o meni, Renatu. Moje vještine, obrazovanje i interesi.">
+  <meta property="og:title" content="O meni">
+  <meta property="og:description" content="Saznaj više o mojim vještinama i obrazovanju.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/pages/o-meni.css">
+</head>
+<body>
+  <header>
+    <a href="#main" class="skip-link">Preskoči na sadržaj</a>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger" aria-label="Otvori navigaciju">☰</label>
+
+    <nav aria-label="Glavna navigacija">
+      <ul>
+        <li><a href="index.html">Naslovnica</a></li>
+        <li><a href="o-meni.html" class="active">O meni</a></li>
+        <li><a href="projekti.html">Projekti</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section aria-labelledby="naslov-o-meni">
+      <h1 id="naslov-o-meni">O meni</h1>
+      <p>Ja sam Renato Visković, student prve godine smjer Informacijske tehnologije koji uči osnove web tehnologije, programiranje i mnogo toga. Fokus mi je na razumijevanju HTML-a, CSS layouta i osnovnog programiranja.</p>
+    </section>
+
+    <section aria-labelledby="vjestine-naslov">
+      <h2 id="vjestine-naslov">Moje Vještine</h2>
+      <table>
+        <caption>Pregled mojih vještina</caption>
+        <thead>
+          <tr>
+            <th>Razumijevanje programiranja u HTML, CSS, Python i JavaScript.</th>
+            <th>Moja razina je to od potpunog početnika</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Početnik</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Početnik</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Početnik</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Početnik</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section aria-labelledby="obrazovanje-naslov">
+      <h2 id="obrazovanje-naslov">Obrazovanje</h2>
+      <ul class="education-list">
+        <li>
+          <h3>Informacijske tehnologije</h3>
+          <p>Kolegij na kojem učim osnove više vrsta načina programiranja.</p>
+        </li>
+        <li>
+          <h3>Tehničar Cestovnog Prometa</h3>
+          <p>Srednja škola u kojoj sam učio rad na AutoCAD-u.</p>
+        </li>
+        <li>
+          <h3>Samostalno učenje</h3>
+          <p>Online tutorijali, AI pomoć i ručno učenje.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Renato</p>
+    <div class="social">
+      <a href="#" aria-label="GitHub profil">
+        <img src="img/github.svg" alt="">
+      </a>
+      <a href="#" aria-label="LinkedIn profil">
+        <img src="img/linkedin.svg" alt="">
+      </a>
+      <a href="#" aria-label="Instagram profil">
+        <img src="img/instagram.svg" alt="">
+      </a>
+    </div>
+  </footer>
+</body>
+</html>

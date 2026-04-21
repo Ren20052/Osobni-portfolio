@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osobni portfolio:Kontakt</title>
+  <meta name="description" content="Kontakt forma za slanje upita Renatu (to sam ja).">
+  <meta property="og:title" content="Kontakt">
+  <meta property="og:description" content="Pošalji mi poruku putem kontakt forme.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/pages/kontakt.css">
+</head>
+<body>
+  <header>
+    <a href="#main" class="skip-link">Preskoči na sadržaj</a>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger" aria-label="Otvori navigaciju">☰</label>
+
+    <nav aria-label="Glavna navigacija">
+      <ul>
+        <li><a href="index.html">Naslovnica</a></li>
+        <li><a href="o-meni.html">O meni</a></li>
+        <li><a href="projekti.html">Projekti</a></li>
+        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section aria-labelledby="kontakt-naslov">
+      <h1 id="kontakt-naslov">Kontakt</h1>
+      <p>Imate pitanje, prijedlog ili želite raditi samnom? Ispunite formu i javit ću vsam se čim prije.</p>
+
+      <form action="#" method="post" novalidate>
+        <div class="form-group">
+          <label for="ime">Ime i prezime</label>
+          <input type="text" id="ime" name="ime" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail adresa</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="tema">Tema slanje poruke</label>
+          <input type="text" id="tema" name="tema" required>
+        </div>
+
+        <div class="form-group">
+          <label for="poruka">Poruka</label>
+          <textarea id="poruka" name="poruka" rows="5" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="tip-upita">Tip upita</label>
+          <select id="tip-upita" name="tip-upita" required>
+            <option value="">Odaberite...</option>
+            <option value="suradnja">Suradnja</option>
+            <option value="pitanje">Pitanje</option>
+            <option value="ostalo">Ostalo</option>
+          </select>
+        </div>
+
+        <button type="submit">Pošalji poruku</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Renato</p>
+    <div class="social">
+      <a href="#" aria-label="GitHub profil">
+        <img src="img/github.svg" alt="">
+      </a>
+      <a href="#" aria-label="LinkedIn profil">
+        <img src="img/linkedin.svg" alt="">
+      </a>
+      <a href="#" aria-label="Instagram profil">
+        <img src="img/instagram.svg" alt="">
+      </a>
+    </div>
+  </footer>
+</body>
+</html>

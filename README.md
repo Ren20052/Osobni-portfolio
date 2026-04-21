@@ -1,2 +1,18 @@
-# Osobni-portfolio
-Projekt 1
+# Osobni portfolio
+Ovo je kratki osobni web portfolio izrađen kao projekt za predmet Uvod u web tehnologije. Sadrži jako osnovne informacije o meni, pregled projekata i kontakt formu.
+
+## Stranice
+- index.html – Naslovnica  
+- o-meni.html – O meni  
+- projekti.html – Projekti  
+- kontakt.html – Kontakt forma  
+
+## Kako pokrenuti
+Otvori `index.html` u pregledniku  
+ili koristi VS Code i otvoriti ga tako
+
+## Tehnologije
+HTML5, CSS3 (Flexbox, Grid, CSS varijable)
+
+## Autor
+Renato, UNIZD SIT 2026.
