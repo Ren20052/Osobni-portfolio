@@ -15,4 +15,4 @@ ili koristi VS Code i otvoriti ga tako
 HTML i malo CSS
 
 ## Autor
-Renato Visković, 1 godina informacijskih tehnologija
+Renato Visković, prva godina informacijskih tehnologija
