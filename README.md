@@ -12,7 +12,7 @@ Otvori `index.html` u pregledniku
 ili koristi VS Code i otvoriti ga tako
 
 ## Tehnologije
-HTML5, CSS3 (Flexbox, Grid, CSS varijable)
+HTML i malo CSS
 
 ## Autor
-Renato, UNIZD SIT 2026.
+Renato Visković, 1 godina informacijskih tehnologija
